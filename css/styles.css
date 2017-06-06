@@ -1,0 +1,134 @@
+body{
+	display: block;
+	width: 100%;
+	max-width: 1500px;
+	background-color: #eee;
+	margin: 0 auto;
+}
+.site-header{
+	display: block;
+	width: 100%;
+	max-width: 1200px;
+	margin:0 auto;
+	font-size: 0;
+}
+div{
+	display: inline-block;
+}
+.logo{
+	width: 60%;
+	max-width: 800px;
+	padding-top: 48px;
+}
+.site-navigation{
+	width: 40%;
+	max-width: 400px;
+	font-size: 18px;
+	padding-top: 64px;
+}
+ul{
+	font-size: 0;
+}
+li{
+	display: inline-block;
+	text-align: right;
+	color: #303030;
+font-family: Roboto,sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 27px;
+padding-right:40px;
+color:#303030;
+}
+.menu-icon{
+	display: inline-block;
+ 	margin: 0;
+ 	color: #303030;
+}
+a{
+	color: #303030;
+	text-decoration: none;
+}
+a:hover,i:hover{
+	color:  #e10011;
+}
+.site-main{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	font-size: 0;
+}
+.text{
+	display: inline-block;
+	width: 52%;
+	max-width: 618px;
+	font-size: 15px;
+	margin: 0;
+}
+.foto{
+	display: inline-block;
+	width: 48%;
+	max-width: 582px;
+	margin: 0;
+}
+.foto img{
+	width: 582px;
+}
+div{
+	display: inline-block;
+}
+.black{
+width: 618px;
+height: 258px;
+color: #303030;
+font-family: Raleway,sans-serif;
+font-size: 120px;
+font-weight: 900;
+line-height: 150px;
+text-transform: uppercase;
+padding-top: 124px;
+text-align: right;
+}
+.lorem{
+	overflow: hidden;
+width: 618px;
+height: 95px;
+color: #303030;
+font-family: Roboto,sans-serif;
+font-size: 22px;
+font-weight: 300;
+line-height: 36px;
+padding-top: 53px;
+text-align: right;
+}
+.view{
+width: 618px;
+height: 24px;
+color: #e10011;
+font-family: Roboto,sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+padding-top: 25px;
+text-align: right;
+}
+.site-footer{
+	display: block;
+	width: 100%;
+	max-width: 1200px;
+	margin:0 auto;
+	text-align: center;
+	padding-top: 88px;
+	padding-bottom: 100px;
+}
+.foot{
+	list-style-type: none;
+	width: 11px;
+	height: 11px;
+	border-radius: 50%;
+	padding: 5px;
+	background-color:#303030;
+}
+.foot:hover{
+	background-color: #e10011;
+}
