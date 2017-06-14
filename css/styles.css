@@ -1,85 +1,65 @@
 body{
-	display: block;
-	width: 100%;
-	max-width: 1500px;
-	background-color: #eee;
-	margin: 0 auto;
+	background-color: #000;
 }
 .site-header{
-	display: block;
-	width: 100%;
-	max-width: 1200px;
-	margin:0 auto;
-	font-size: 0;
-}
-div{
-	display: inline-block;
+display: block;
+width: 100%;
+max-width: 1200px;
+background-color: #eee;
+margin:0 auto;
+font-size: 0;
 }
 .logo{
-	width: 60%;
-	max-width: 800px;
-	padding-top: 48px;
+padding-top: 48px;
+padding-left:2%;
+width:68%;
+display: inline-block;
+
 }
 .site-navigation{
-	width: 40%;
-	max-width: 400px;
-	font-size: 18px;
-	padding-top: 64px;
+font-size: 18px;
+padding-top: 64px;
+width: 30%;
 }
 ul{
-	font-size: 0;
+font-size: 0;
 }
 li{
-	display: inline-block;
-	text-align: right;
-	color: #303030;
+list-style-type: none;
+color: #303030;
 font-family: Roboto,sans-serif;
 font-size: 14px;
 font-weight: 400;
 line-height: 27px;
 padding-right:40px;
 color:#303030;
+float:left;
 }
 .menu-icon{
-	display: inline-block;
- 	margin: 0;
- 	color: #303030;
+padding-top: 3px;
+color: #303030;
+float:left;
+}
+.site-navigation{
+float:right;
 }
 a{
-	color: #303030;
-	text-decoration: none;
+color: #303030;
+text-decoration: none;
 }
 a:hover,i:hover{
-	color:  #e10011;
+color:  #e10011;
 }
 .site-main{
-	width: 100%;
-	max-width: 1200px;
-	margin: 0 auto;
-	font-size: 0;
-}
-.text{
-	display: inline-block;
-	width: 52%;
-	max-width: 618px;
-	font-size: 15px;
-	margin: 0;
-}
-.foto{
-	display: inline-block;
-	width: 48%;
-	max-width: 582px;
-	margin: 0;
-}
-.foto img{
-	width: 582px;
-}
-div{
-	display: inline-block;
+width:100%;
+max-width: 1200px;
+margin: 0 auto;
+height: 632.2px;
+background-color: #eee;
+font-size: 0;
+clear:both;
 }
 .black{
-width: 618px;
-height: 258px;
 color: #303030;
 font-family: Raleway,sans-serif;
 font-size: 120px;
@@ -90,8 +70,7 @@ padding-top: 124px;
 text-align: right;
 }
 .lorem{
-	overflow: hidden;
-width: 618px;
+overflow: hidden;
 height: 95px;
 color: #303030;
 font-family: Roboto,sans-serif;
@@ -102,8 +81,6 @@ padding-top: 53px;
 text-align: right;
 }
 .view{
-width: 618px;
-height: 24px;
 color: #e10011;
 font-family: Roboto,sans-serif;
 font-size: 24px;
@@ -112,23 +89,44 @@ line-height: 36px;
 padding-top: 25px;
 text-align: right;
 }
+.foto img{
+width: 582px;
+background-color: #eee;
+}
+.text{
+width: 50%;
+background-color: #eee;
+float:left;
+}
+.foto{
+width: 50%;
+background-color: #eee;
+float:right;
+}
 .site-footer{
-	display: block;
-	width: 100%;
-	max-width: 1200px;
-	margin:0 auto;
-	text-align: center;
-	padding-top: 88px;
-	padding-bottom: 100px;
+width: 100%;
+max-width: 1200px;
+height: 60px;
+margin: 0 auto;
+background-color:#eee;
+padding-top: 10px;
+margin: 0 auto;
+clear:both;
 }
 .foot{
-	list-style-type: none;
-	width: 11px;
-	height: 11px;
-	border-radius: 50%;
-	padding: 5px;
-	background-color:#303030;
+list-style-type: none;
+width: 11px;
+height: 11px;
+border-radius: 50%;
+background-color:#303030;
+padding: 5px;
+margin-right: 10px;
+float: left;
+}
+.ball{
+margin-left:550px;
+height: 70px;
 }
 .foot:hover{
-	background-color: #e10011;
+background-color: #e10011;
 }
