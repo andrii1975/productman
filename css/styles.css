@@ -5,15 +5,17 @@ body{
 display: block;
 width: 100%;
 max-width: 1200px;
+height: 132px;
 background-color: #eee;
 margin:0 auto;
 font-size: 0;
+clear:both;
 }
 .logo{
 padding-top: 48px;
 padding-left:2%;
 width:68%;
-display: inline-block;
+float:left;
 
 }
 .site-navigation{
@@ -54,7 +56,7 @@ color:  #e10011;
 width:100%;
 max-width: 1200px;
 margin: 0 auto;
-height: 632.2px;
+height: 642px;
 background-color: #eee;
 font-size: 0;
 clear:both;
@@ -71,7 +73,7 @@ text-align: right;
 }
 .lorem{
 overflow: hidden;
-height: 95px;
+height: 105px;
 color: #303030;
 font-family: Roboto,sans-serif;
 font-size: 22px;
@@ -90,7 +92,7 @@ padding-top: 25px;
 text-align: right;
 }
 .foto img{
-width: 582px;
+width: 590px;
 background-color: #eee;
 }
 .text{
@@ -123,8 +125,8 @@ padding: 5px;
 margin-right: 10px;
 float: left;
 }
-.ball{
-margin-left:550px;
+.slider{
+margin-left:500px;
 height: 70px;
 }
 .foot:hover{
